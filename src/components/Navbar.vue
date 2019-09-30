@@ -8,12 +8,12 @@
                 <a href="javascript:void(0)"  @click="myFunction()"><i class="fa fa-bars icons-bar" aria-hidden="true"></i></a>
               </div>
             </div>
-             <button  class="fa fa-search btn button-style"></button>
+             <!-- <button  class="fa fa-search btn button-style"></button> -->
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
               
             </div>
              <div class="nav-profile">
-             <a href=""><img :src="image" class="sidebar-image"/></a>      
+             <a href=""> <img :src="image" class="sidebar-image"/></a>      
              </div>
               <h3><a href="" class="profile-pic">Alex Costa</a></h3>
           
@@ -31,10 +31,8 @@ export default {
   data()
   {
     return{
-      images: {
-        sample: 'assets/sample.jpg'
-      }
-      // image: image,
+      
+     image: image
     }
   },
   methods:
@@ -124,7 +122,7 @@ body {
    .icons-bar {
     /* margin-left: 493px; */
     margin-right: 200px;
-    margin-top: -56px;
+    margin-top: -45px;
     display: block;
     color: white;
    }
@@ -136,7 +134,9 @@ body {
      display: none;
    }
    .sidebar-image {
-     display: none;
+     /* display: none; */
+     margin-top: -45px;
+     margin-left: 150px;
    }
    .profile-pic {
      display: none;
@@ -155,9 +155,9 @@ body {
    .button-style {
      display: none;
    }
-   .sidebar-image {
+   /* .sidebar-image {
      display: none;
-   }
+   } */
    .profile-pic {
      display: none;
    }
@@ -166,6 +166,11 @@ body {
    .icons-bar {
     /* margin-left: 325px;  */
       padding-left: 21px;
+   }
+   .sidebar-image {
+     display: none;
+     margin-right: 18px;
+     margin-top: -43px;
    }
  }
 

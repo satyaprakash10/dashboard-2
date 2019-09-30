@@ -2,34 +2,38 @@
   <div  id="mySidenav" class="sidebar">
     <!-- <div class="formation"> -->
       <router-link to="/">
-        <li><a href="# "><i class="fa fa-tachometer" aria-hidden="true"></i> Dashbord</a></li>
+        <li><a href="# "><i class="fa fa-tachometer" aria-hidden="true"></i> DASHBOARD</a></li>
       </router-link>
 
       <router-link to="/profile">
-         <li><a href="# " class="active"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+         <li><a href="# " class="active"><i class="fa fa-user" aria-hidden="true"></i> FORM</a></li>
       </router-link>
 
       <router-link to="/basic">
-         <li><a href="# "><i class="fa fa-table" aria-hidden="true"></i>  Basic Table </a></li>
+         <li><a href="# "><i class="fa fa-table" aria-hidden="true"></i>  BASIC TABLE </a></li>
       </router-link>
 
       <router-link to="/icons">
-         <li><a href="# "><i class="fa fa-grav" aria-hidden="true"></i> Icons</a> </li> 
+         <li><a href="# "><i class="fa fa-grav" aria-hidden="true"></i> ICONS</a> </li> 
       </router-link>
 
       <router-link to="/Google">
-        <li><a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Google Map</a></li>
+        <li><a href="#"><i class="fa fa-globe" aria-hidden="true"></i>GOOGLE MAP</a></li>
       </router-link>
 
       <router-link to="/blankpage">
-        <li><a href="# "><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Blank Page</a></li>
+        <li><a href="# "><i class="fa fa-exclamation-circle" aria-hidden="true"></i>BLANK PAGE</a></li>
       </router-link>
       
       <router-link to="/error">
-        <li><a href="# "><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Error 404</a></li>     
+        <li><a href="# "><i class="fa fa-exclamation-circle" aria-hidden="true"></i> ERROR 404</a></li>     
       </router-link>
+      
+      <router-link to="/form">
+      <li><a href="# "><i class="fa fa-exclamation-circle" aria-hidden="true"></i> PROFILE</a></li>     
+    </router-link>
     <!-- </div> -->
-    <button class="btnn btn-warning">Upgrade to Pro</button>
+    <button class="btnn btn-warning" style= "font-size:15px">Upgrade to Pro</button>
   </div>
 </template>
 <script>

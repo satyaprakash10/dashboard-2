@@ -3,11 +3,12 @@ import VueRouter from "vue-router";
 // import Home from "./views/Home.vue";
 import dashboard from "./views/Dashboard.vue";
 import profile from './views/Profile.vue';
-import basictable from './views/BasicTable.vue'
+import basictable from './views/BasicTable.vue';
 import icons from './views/Icons.vue';
 import Google from "./views/GoogleMap.vue";
 import blankpage from './views/BlankPage.vue';
 import error from './views/Error404.vue';
+// import form from './views/Form.vue';
 // import Modal from "./components/Modal.vue";
 Vue.use(VueRouter)
 
@@ -52,7 +53,10 @@ export default new VueRouter({
       path: "/error",
       // name: "error",
       component: error
-    }
-     
+    } 
+    // {
+    //   path: "/form"
+    //   component: Form
+    // }
   ]
 })

@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid">
       <!-- <nav aria-label="breadcrumb"> -->
-          <div class="title">
+          <div class="title-3">
             <h1>BASIC TABLE</h1>
-             <ul class="lists">  
+             <ul class="lists-3">  
               <li> <a href="#" class="home">  Home</a></li>
               <li> <a href="#" class="db"> >  Baic table</a></li>
             </ul>
@@ -19,32 +19,21 @@ export default {
 <style>
  /* .breadcrumb {
  } */
- .title {
-    padding-right: 941px;
+ .title-3 {
+    margin-right: 910px;
     margin-top: 27px;
     font-size: 30px;
  }
- .Breadcrumb {
-    display: flex;
-    margin-left: 130px;
-    /* padding-left: 141px; */
-    font-size: 20px;
-    flex-wrap: nowrap;
-    margin-top: -55px;
-    padding: 2.75rem 14rem;
-    margin-bottom: -2rem;
-    list-style: none;
-    background-color: #e9ecef;
-    border-radius: 0.25rem;   
- }
+ 
  .container-fluid {
    background:rgb(231, 224, 224);
    top: 0%;
    margin-top: -18px;
  }
- .lists {
+ .lists-3 {
    list-style: none;
-   /* padding-left: 285px; */
+   /* padding-left: 200px; */
+   margin-right: 100px;
    display: flex;
    text-decoration: none;
    font-size: 15px;
@@ -56,5 +45,14 @@ export default {
  }
  .db {
    color: grey;
+ }
+
+ @media screen and (max-width: 360px) {
+   .title-3  {  
+    margin-right: 0px;
+   }
+   .lists-3 {
+     padding-left: 87px;
+   }
  }
 </style>

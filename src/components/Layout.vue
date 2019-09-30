@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<navbar/>
-		<sidebar/>
+		<Navbar/>
+		<Sidebar/>
 		<!-- <div class="main-content">
 			<Content/>
 		</div> -->
