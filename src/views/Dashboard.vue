@@ -65,7 +65,7 @@
                 <li>Samsung</li>
               </ul>
               <ul class="lists-b">
-                <li>GooglePixel</li>
+                <li><i class="fa fa-circle" style=" margin:5px; font-size: 7px;"  aria-hidden="true"></i>GooglePixel</li>
               </ul>
             </div>
           </div>
@@ -86,6 +86,9 @@ export default {
 }
 </script>
 <style>
+body {
+  background-color: rgb(138, 221, 221);
+}
 .header-style { 
   float: left;
   margin-top: 10px;
@@ -127,24 +130,19 @@ export default {
   padding-left: 22px;
   color: aqua;
   font-size: 15px;
-}
-.upgradebtn {
-  height: 40px;
-  
-  width: 100px;
+  list-style: none;
 }
  
- 
- @media screen and(max-width:756px) {
-   .title {
-     margin-right: -10px;
-   }
-   .lists {
-     margin-right: -146px;
-   }
-   .seconadary {
-     position: relative;
-     margin-right: 100px;
-   }
+@media screen and (max-width: 780px) {
+  .title  {  
+    margin-right: 50px;
+    }
+  .lists {
+    padding-left: 125px;
+    }
+  .seconadary {
+    position: relative;
+    margin-right: 100px;
+  }
  }
 </style>

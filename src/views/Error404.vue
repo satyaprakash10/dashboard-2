@@ -1,14 +1,29 @@
 <template>
-  <div class="container-fluid">
-      <nav aria-label="breadcrumb">
-          <div>
-            <h1 class="title-7">ERROR 404</h1>
-            <ul class="lists-7">
-              <li> <a href="#" class="home">  Home</a>  </li>
-              <li> <a href="#" class="db">  >  Error 404..  </a>  </li>
-            </ul>
+  <div>
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <div>
+              <h1 class="title-7">ERROR 404</h1>
+              <ul class="lists-7">
+                <li> <a href="#" class="home">  Home</a>  </li>
+                <li> <a href="#" class="db">  >  Error 404..  </a>  </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="card">
+       <div class="card-header">
+         <h1 style="color:red;">Error Found..<span style="font-size:14px; color:grey;">The page is not working..</span></h1>
+       </div>
+       <!-- <div class="row"> -->
+        <!-- <div class="col-md-8"> -->
+          <div class="car-body" style="margin-top:30px;">
+            <i class="fa fa-exclamation-triangle" style="font-size: 178px;" aria-hidden="true"></i>
           </div>
-      </nav>
+        <!-- </div> -->
+       <!-- </div> -->
+    </div>
+
   </div>
 </template>
 <script>
@@ -44,5 +59,13 @@ export default {
  }
  .db {
    color: grey;
+ }
+  @media screen and (max-width: 780px) {
+   .title-7  {  
+    margin-left: 150px;
+   }
+   .lists-7 {
+     padding-left: 150px;
+   }
  }
 </style>

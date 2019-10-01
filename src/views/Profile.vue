@@ -4,7 +4,7 @@
       <nav aria-label="breadcrumb">
           <!-- <div> -->
             <div>
-              <h1 class="title-2">Profile</h1>
+              <h1 class="title-2">FormPage</h1>
               <ul class="lists-2">
                 <li><a href="#" class="home">  Home</a></li>
                 <li><a href="#" class="db">  >  Profile</a></li>
@@ -120,7 +120,7 @@
   
 }
 .title-2 {
-  margin-right: 969px;
+  margin-right: 919px;
   margin-top: 20px;
   font-size: 30px;
 }
@@ -151,4 +151,12 @@
 .form-group {
   background: rgb(250, 250, 250);
 }
+ @media screen and (max-width: 780px) {
+   .title-2  {  
+    margin-right: 100px;
+   }
+   .lists-2 {
+     padding-left: 141px;
+   }
+ }
 </style>

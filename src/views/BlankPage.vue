@@ -1,15 +1,25 @@
 <template>
-  <div class="container-fluid">
-      <nav aria-label="breadcrumb">
-          <div>
-            <h1 class="title-6">BLANK PAGE</h1>
-            <ul class="lists-6">
-              <li> <a href="#" class="home">  Home</a>  </li>
-              <li> <a href="#" class="db">  >  Blankpage  </a>  </li>
-            </ul>
+   <div>
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <div>
+              <h1 class="title-6">BLANK PAGE</h1>
+              <ul class="lists-6">
+                <li> <a href="#" class="home">  Home</a>  </li>
+                <li> <a href="#" class="db">  >  Blankpage  </a>  </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+      <div class="container" style="margin-top:20px;">
+        <div class="card">
+          <div class="card-body" style="margin-top:50px;">
+            <a href="#create"><i class="fa fa-plus-circle"  style="font-size:180px;" aria-hidden="true"></i></a>
           </div>
-      </nav>
-  </div>
+          <p href="" style="font-size:40px;">Create your own page.</p>
+        </div>
+      </div>
+   </div>
 </template>
 <script>
 export default {
@@ -44,5 +54,14 @@ export default {
  }
  .db {
    color: grey;
+ }
+
+  @media screen and (max-width: 780px) {
+   .title-6  {  
+    margin-left: 150px;
+   }
+   .lists-6 {
+     padding-left: 150px;
+   }
  }
 </style>

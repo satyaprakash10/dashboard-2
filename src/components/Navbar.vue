@@ -8,7 +8,7 @@
                 <a href="javascript:void(0)"  @click="myFunction()"><i class="fa fa-bars icons-bar" aria-hidden="true"></i></a>
               </div>
             </div>
-             <!-- <button  class="fa fa-search btn button-style"></button> -->
+             <!-- <button  class="fa fa-search btn search-btn" style="font-size:20px; margin-left: 20px; color:white;"></button> -->
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
               
             </div>
@@ -78,11 +78,7 @@ body {
   z-index: 100;
   width: 100%;
 }
-.button-style {
-  margin-left: 10px;
-  color: white;
-  font-size: 20px;
-}
+ 
 .logo-style {
   font-size: 25px;
   color: white;
@@ -94,13 +90,6 @@ body {
 
 .logo-style-1 {
   font-size: 25px;
-}
-
-.btn-style {
-  color: white;
-  /* margin-top: 55px; */
-  font-size: 20px;
-  margin-right: 5px;
 }
 
 .sidebar-image{ 
@@ -115,24 +104,24 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    
-  .logo-style {
+   .search-btn {
+     display: none;
+   }
+   .logo-style {
     padding-left: 60px;
   }
    .icons-bar {
     /* margin-left: 493px; */
     margin-right: 200px;
-    margin-top: -45px;
+    margin-top: -75px;
     display: block;
     color: white;
    }
    .logo-style-1 {
     margin-bottom: -67px;
-    margin-left: 311px;
+    margin-left: 441px;
    }   
-   .button-style {
-     display: none;
-   }
+   
    .sidebar-image {
      /* display: none; */
      margin-top: -45px;
@@ -143,18 +132,19 @@ body {
    }
    
 }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 547px) {
    .icons-bar {
-    margin-left: 300px;
-    margin-top: -48px;
+    margin-left: -402px;
+    margin-top: -44px;
+   }
+    .search-btn {
+     display: none;
    }
    .logo-style-1 {
     margin-bottom: -72px;
     margin-right: 132px;
    }   
-   .button-style {
-     display: none;
-   }
+    
    /* .sidebar-image {
      display: none;
    } */
@@ -167,10 +157,15 @@ body {
     /* margin-left: 325px;  */
       padding-left: 21px;
    }
+
    .sidebar-image {
      display: none;
      margin-right: 18px;
      margin-top: -43px;
+   }
+   
+   .logo-style-1 {
+     margin-left: 328px;
    }
  }
 

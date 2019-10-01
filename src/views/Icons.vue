@@ -11,8 +11,8 @@
             </div>
         <!-- </nav> -->
     </div>
-    <h1>Our Services</h1>
-    <div class="container">
+    <h1 class="pt-5">Our Services</h1>
+    <div class="container pb">
       <div class="row services">
         <div class="col-md-4 text-center">
             <div class="icon">
@@ -68,7 +68,7 @@ export default {
  }
  .lists-4 {
    list-style: none;
-   padding-left: 255px;
+   padding-left: 247px;
    display: flex;
    text-decoration: none;
    font-size: 15px;
@@ -126,4 +126,14 @@ export default {
   cursor: pointer;
   transition: 0.7s;
 }
+
+ @media screen and (max-width: 780px) {
+   .title-4  {  
+     margin-left: 150px;
+   }
+   .lists-4 {
+     padding-left: 150px;
+   }
+ }
+
 </style>
